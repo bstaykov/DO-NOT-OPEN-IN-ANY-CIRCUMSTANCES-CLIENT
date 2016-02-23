@@ -4,7 +4,7 @@
     <script>
         $('#getTeamsBtn').on('click', function () {
             console.log('SENT FROM CLIENT');
-            $.get("http://localhost:48427/api/PremierLeagueTeams", function (teams) {
+            $.get("http://service-19.apphb.com/api/PremierLeagueTeams", function (teams) {
                 getTeams(teams);
             });
         });
