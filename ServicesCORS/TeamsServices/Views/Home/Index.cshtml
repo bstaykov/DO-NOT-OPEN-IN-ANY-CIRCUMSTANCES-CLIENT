@@ -6,6 +6,7 @@
             console.log('SENT FROM CLIENT');
             $.get("http://service-19.apphb.com/api/PremierLeagueTeams", function (teams) {
                 getTeams(teams);
+                console.log(teams);
             });
         });
 
